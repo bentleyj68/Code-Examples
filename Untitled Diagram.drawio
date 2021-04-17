@@ -1,14 +1,14 @@
-<mxfile host="app.diagrams.net" modified="2021-04-17T03:28:36.642Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36" etag="_DXRrYYZK-reRDmv6GuM" version="14.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-17T05:25:00.534Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36" etag="mLzAZ6VR9qkoXyZgzFLv" version="14.2.7" type="github">
   <diagram id="8ZXVvmgjRNupLooyycMh" name="Page-1">
-    <mxGraphModel dx="782" dy="579" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="782" dy="478" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="NxfXi9mGFPEfSR7ivn9f-1" value="API Call / Scraping" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="201" y="40" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="NxfXi9mGFPEfSR7ivn9f-2" value="Externa Datasource" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
-          <mxGeometry x="40" y="41" width="60" height="80" as="geometry" />
+        <mxCell id="NxfXi9mGFPEfSR7ivn9f-2" value="Externa Datasources" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="40" y="41" width="70" height="79" as="geometry" />
         </mxCell>
         <mxCell id="NxfXi9mGFPEfSR7ivn9f-3" value="" style="endArrow=classic;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="NxfXi9mGFPEfSR7ivn9f-2" target="NxfXi9mGFPEfSR7ivn9f-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -17,25 +17,25 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="NxfXi9mGFPEfSR7ivn9f-4" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/scripting-and-programming-languages/512/js-128.png" vertex="1" parent="1">
-          <mxGeometry x="495" y="170" width="40" height="40" as="geometry" />
+          <mxGeometry x="648" y="180" width="40" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="NxfXi9mGFPEfSR7ivn9f-5" value="Web Page 1&lt;br&gt;Leaflet Map" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="149" y="273" width="140" height="140" as="geometry" />
+        <mxCell id="NxfXi9mGFPEfSR7ivn9f-5" value="&lt;b&gt;&lt;u&gt;Web Page 1&lt;/u&gt;&lt;/b&gt;&lt;br&gt;Leaflet Map&lt;br&gt;&lt;br&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;- EV production by region&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;- Electricity production&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;- Petrol vs EV&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;- Charging station locations&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="130" y="273" width="159" height="159" as="geometry" />
         </mxCell>
-        <mxCell id="NxfXi9mGFPEfSR7ivn9f-6" value="Web Page 3&lt;br&gt;Table&lt;br&gt;(Detail)" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="548" y="271" width="140" height="140" as="geometry" />
+        <mxCell id="NxfXi9mGFPEfSR7ivn9f-6" value="&lt;b&gt;&lt;u&gt;Web Page 3&lt;/u&gt;&lt;/b&gt;&lt;br&gt;Table&lt;br&gt;(Detail on data)" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="540" y="271" width="148" height="148" as="geometry" />
         </mxCell>
-        <mxCell id="NxfXi9mGFPEfSR7ivn9f-7" value="Web Page 2&lt;br&gt;Visualisation&lt;br&gt;Graph(s)&lt;br&gt;&lt;br&gt;Race Chart (raceplotly)" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="344" y="271" width="140" height="140" as="geometry" />
+        <mxCell id="NxfXi9mGFPEfSR7ivn9f-7" value="&lt;b&gt;&lt;u&gt;Web Page 2&lt;/u&gt;&lt;/b&gt;&lt;br&gt;Visualisation&lt;br&gt;Graph(s)&lt;br&gt;&lt;br&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;- Race Chart (raceplotly)&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;- EV price comparison&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;- Emissions and Electricity production&amp;nbsp;&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="330" y="271" width="154" height="154" as="geometry" />
         </mxCell>
-        <mxCell id="NxfXi9mGFPEfSR7ivn9f-8" value="Mongo&lt;br&gt;Database" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
-          <mxGeometry x="435" y="40" width="60" height="80" as="geometry" />
+        <mxCell id="NxfXi9mGFPEfSR7ivn9f-8" value="Web App Database" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="435" y="40" width="75" height="80" as="geometry" />
         </mxCell>
         <mxCell id="NxfXi9mGFPEfSR7ivn9f-9" value="Landing Page" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="580" y="18" width="140" height="140" as="geometry" />
         </mxCell>
         <mxCell id="NxfXi9mGFPEfSR7ivn9f-10" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn3.iconfinder.com/data/icons/logos-and-brands-adobe/512/267_Python-128.png" vertex="1" parent="1">
-          <mxGeometry x="319" y="50" width="60" height="60" as="geometry" />
+          <mxGeometry x="332" y="50" width="60" height="60" as="geometry" />
         </mxCell>
         <mxCell id="NxfXi9mGFPEfSR7ivn9f-11" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="NxfXi9mGFPEfSR7ivn9f-1" target="NxfXi9mGFPEfSR7ivn9f-10">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -56,6 +56,24 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="380" y="110" as="sourcePoint" />
             <mxPoint x="430" y="60" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NxfXi9mGFPEfSR7ivn9f-15" value="" style="endArrow=classic;html=1;entryX=0.453;entryY=0.023;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="NxfXi9mGFPEfSR7ivn9f-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="650" y="160" as="sourcePoint" />
+            <mxPoint x="430" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NxfXi9mGFPEfSR7ivn9f-16" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="650" y="160" as="sourcePoint" />
+            <mxPoint x="430" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NxfXi9mGFPEfSR7ivn9f-17" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="650" y="160" as="sourcePoint" />
+            <mxPoint x="620" y="260" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
