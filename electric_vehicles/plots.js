@@ -2,7 +2,7 @@ var country = "Australia";
 
 /* global Plotly */
 var url =
-  `http://127.0.0.1:5000/api/v1/resources/electricity_production_values/country?id=${country}`;
+  `http://localhost:5000/api/v1/resources/electricity_production_values/country?id=${country}`;
 
 /**
  * Helper function to select data
@@ -23,15 +23,25 @@ function unpack(rows, index) {
 
 function buildPlot() {
   d3.json(url).then(function(data) {
-
+    
+    var example = ['test', 'test2']
+    var country = data.country;
+    var index = data.index;
+    var percentage = data.percentage;
+    var source_id = data.source_id;
+    var year = data.year;
+        
     // Grab values from the data json object to build the plots
-    var country = data.dataset.country;
-    var index = data.dataset.index;
-    var percentage = data.dataset.percentage;
-    var source_id = data.dataset.source_id['EG.ELC.FOSL.ZS'];
-    var year = data.dataset.year;
+    for (var i = 0; i < data.length; i++) {
+      example.push(data[i].percentage)
+    //   country.push(data[i].country);
+    //   index.push(data[i].index);
+    //   percentage.push(data[i].percentage);
+    //   source_id.push(data[i].source_id);
+    //   year.push(data[i].year);
+    }
 
-    console.log(index[1]);
+    console.log(example);
 
     // var trace1 = {
     //   type: "scatter",
